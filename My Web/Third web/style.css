@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+}
+.noti{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 16px 0;
+    font-size: 1.1em;
+}
+div button{
+    color: white;
+    background-color: red;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 20px;
+}
+ol{
+    background-color: red;
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ol li{
+    flex-grow: 1;
+    color: white;
+    font-size: 1.1em;
+    margin-top: 7px;
+}
+ol li:first-child{
+    flex-grow: 7;
+}
+/* section 2 */
+
+section img{
+    width: 100%;
+}
+section{
+    position: relative;
+}
+.abso{
+    position: absolute;
+    top: 0;
+    top: 40%;
+    width: 350px;
+    left: 10%;
+    color: white;
+}
+.abso h1{
+    font-size: 3em;
+}
+.abso p{
+    padding: 10px 0;
+}
+.abso button{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+/* section 3 */
+
+.sec3{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.sec3-box{
+    display: flex;
+    width: 70%;
+    margin:auto;
+}
+.iblock{
+    margin-top: 20px;
+    width: 50%;
+    /* margin: auto; */
+}
+.sec3-box1{
+display: flex;
+justify-content: center;
+gap:100px;
+margin-top: 40px;
+}
+.boxs3{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    position:relative;
+
+
+}
+.boxs3 h1{
+    position: absolute;
+    /* margin-top: 50px; */
+    text-align: center;
+    font-size: 2em;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: fit-content;
+    /* vertical-align: center; */
+}
+.boxs3 h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.circle{
+    border: 2px solid white;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    bottom: -40px;
+    right: -40px;
+    border-radius: 90px;
+}
+.triangle{
+    border: 2px solid white;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: -40px;
+    right: 20px;
+    transition: right 3s linear 0s;
+    transform: rotate(135deg);
+}
+.triangle:hover{
+    right: 100px;
+}
+.square{
+    border: 2px solid white;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    bottom: -40px;
+    right: -40px;
+}
+
+/* section4  */
+.sec4{
+    position: relative;
+}
+.abso1{
+    position: absolute;
+    top: 40%;
+    width: 350px;
+    /* left: 10%; */
+    color: white;
+    right: 10%;
+}
+.abso1 h1{
+    font-size: 3em;
+}
+.abso1 p{
+    padding: 10px 0;
+}
+.abso1 button{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    text-align: right;
+}
+.abso1 button:hover{
+    background-color: red;
+}
